@@ -1,0 +1,10 @@
+#include <assert.h>
+#include <string.h>
+#define INCLUDEMAIN
+#include <math.h>
+#include "headers/llrint.h"
+
+long long int llrint(double x)
+{
+    return _llrint(x);
+}

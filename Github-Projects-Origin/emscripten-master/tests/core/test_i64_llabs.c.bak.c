@@ -1,0 +1,10 @@
+#include <assert.h>
+#include <string.h>
+#define INCLUDEMAIN
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char** argv) {
+  printf("%lld,%lld\n", llabs(-576460752303423489), llabs(576460752303423489));
+  return 0;
+}

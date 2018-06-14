@@ -1,0 +1,11 @@
+#include <assert.h>
+#include <string.h>
+#define INCLUDEMAIN
+#include <math.h>
+
+/* uses LONG_MAX > 2^24, see comments in lrint.c */
+
+long lrintf(float x)
+{
+	return rintf(x);
+}

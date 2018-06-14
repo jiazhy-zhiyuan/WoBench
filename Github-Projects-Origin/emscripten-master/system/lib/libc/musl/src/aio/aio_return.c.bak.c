@@ -1,0 +1,9 @@
+#include <assert.h>
+#include <string.h>
+#define INCLUDEMAIN
+#include <aio.h>
+
+ssize_t aio_return(struct aiocb *cb)
+{
+	return cb->__ret;
+}

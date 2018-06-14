@@ -1,0 +1,9 @@
+#include <assert.h>
+#include <string.h>
+#define INCLUDEMAIN
+#include <ctype.h>
+
+int isblank_l(int c, locale_t l)
+{
+	return isblank(c);
+}
